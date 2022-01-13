@@ -1,0 +1,13 @@
+name: Slack Messenger
+description: Send messages via Slack API. Uses Slack Tokens for authentication
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs:
+  slack_token:
+    description: See https://api.slack.com/docs/token-types for use of Slack tokens
+    required: true
+  data:
+    description: JSON formatted data for use in the slack chat.postMessage payload (see https://api.slack.com/methods/chat.postMessage)
+    required: true
+# for additional options, see: https://help.github.com/en/articles/metadata-syntax-for-github-actions
