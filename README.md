@@ -2,7 +2,4 @@
 
 GitHub action for Slack integration.
 
-Please provide at a minimum the following sections:
-
-1. Introduction to what the action is for
-2. "How to use" guide for using the action in a workflow (providing lightweight examples is recommended)
+> **Deprecated:** Use the [official Slack github action](https://github.com/marketplace/actions/slack-send), which basically does the same thing (but it well supported and more flexible)
